@@ -1,0 +1,28 @@
+@import "./base.css";
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.not-draggable {
+  -webkit-app-region: no-drag;
+}
+
+.flip-list-move {
+  transition: transform 0.5s;
+}
+
+.btn {
+  cursor: pointer;
+}
+.ghost {
+  opacity: 0.5;
+  background: #c8ebfb;
+}
